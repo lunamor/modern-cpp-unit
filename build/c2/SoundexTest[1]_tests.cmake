@@ -1,0 +1,5 @@
+add_test( SoundexEncoding.RetainsSoleLetterOfOneLetterWord /home/hymcpp/modern-cpp-unit-1/build/c2/SoundexTest [==[--gtest_filter=SoundexEncoding.RetainsSoleLetterOfOneLetterWord]==] --gtest_also_run_disabled_tests)
+set_tests_properties( SoundexEncoding.RetainsSoleLetterOfOneLetterWord PROPERTIES WORKING_DIRECTORY /home/hymcpp/modern-cpp-unit-1/build/c2)
+add_test( SoundexEncoding.RetainsSoleLetterOfOneLetterWord2 /home/hymcpp/modern-cpp-unit-1/build/c2/SoundexTest [==[--gtest_filter=SoundexEncoding.RetainsSoleLetterOfOneLetterWord2]==] --gtest_also_run_disabled_tests)
+set_tests_properties( SoundexEncoding.RetainsSoleLetterOfOneLetterWord2 PROPERTIES WORKING_DIRECTORY /home/hymcpp/modern-cpp-unit-1/build/c2)
+set( SoundexTest_TESTS SoundexEncoding.RetainsSoleLetterOfOneLetterWord SoundexEncoding.RetainsSoleLetterOfOneLetterWord2)
